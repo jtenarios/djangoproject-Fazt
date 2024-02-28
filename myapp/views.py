@@ -10,7 +10,10 @@ def index(request):
     })
 
 def about(request):
-    return render(request, 'about.html')
+    userName = 'Jymydev'
+    return render(request, 'about.html', {
+        'userName' : userName
+    })
 
 def hello(request, username):
     print(username)
@@ -20,8 +23,15 @@ def hello(request, username):
 
 def project(reqest):
     # projects = list(Project.objects.values());
-    return render(reqest, 'projects.html')
+    projects = Project.objects.all()
+    return render(reqest, 'projects.html', {
+        'projects': projects
+    })
 
 def task(reqest):
     # task = get_object_or_404(Task, id=id)
-    return render(reqest, 'tasks.html')
+
+    tasks = Task.objects.all()
+    return render(reqest, 'tasks.html', {
+        'tasks': tasks
+    })

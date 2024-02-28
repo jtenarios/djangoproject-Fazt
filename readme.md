@@ -1,3 +1,8 @@
+admin:
+    * jtena
+    * 1234
+    * jtena@test.test
+
 https://www.youtube.com/watch?v=T1intZyhXDU&ab_channel=Fazt
 
 Instrucciones:
@@ -56,5 +61,11 @@ filtros
 Recibir parámetros de la URL
     https://youtu.be/T1intZyhXDU?t=4877
 
+Pasar parámetros de backend al template HTML
+    https://youtu.be/T1intZyhXDU
 
-28/02: https://youtu.be/T1intZyhXDU?t=6871
+Recorres datos de una lista de elementos
+    https://youtu.be/T1intZyhXDU?t=7295
+
+
+28/02: https://youtu.be/T1intZyhXDU?t=7719
