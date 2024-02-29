@@ -67,5 +67,16 @@ Pasar parámetros de backend al template HTML
 Recorres datos de una lista de elementos
     https://youtu.be/T1intZyhXDU?t=7295
 
+If condicional
+    https://youtu.be/T1intZyhXDU?t=8232
 
-28/02: https://youtu.be/T1intZyhXDU?t=7719
+Resto de instrucciones
+    https://jinja.palletsprojects.com/en/3.1.x/
+
+Plantillas o componentes que se pueden usar en diferentes partes
+    https://youtu.be/T1intZyhXDU?t=8535
+
+Crear formularios desde python
+    https://youtu.be/T1intZyhXDU?t=9099
+
+28/02: https://youtu.be/T1intZyhXDU?t=9984
