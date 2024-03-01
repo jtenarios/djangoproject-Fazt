@@ -1,27 +1,56 @@
-<nav>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/projects">Projects</a>
-        </li>
-        <li>
-            <a href="/tasks">Tasks</a>
-        </li>
-        <li>
-            <a href="/about">About</a>
-        </li>
-        <li>
-            <a href="/create_task">create_task</a>
-        </li>
-        <li>
-            <a href="/create_project">Create_project</a>
-        </li>
-    </ul>
-</nav>
+{% load static %}
 
-{% block content %}
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
 
-<p>Develop by ©Jymy</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django project</title>
+    <link rel="stylesheet" href="{% static 'styles/main.css' %}">
+</head>
+
+<body>
+    <nav class="navbar container">
+        <ul>
+            <li>
+                <!-- <a href="/">Home</a> -->
+                <a href="{% url 'index' %}">Home</a>
+            </li>
+
+            <li>
+                <!-- <a href="/about">About</a> -->
+                <a href="{% url 'about' %}">About</a>
+            </li>
+
+            <li>
+                <!-- <a href="/projects">Projects</a> -->
+                <a href="{% url 'projects' %}">Projects</a>
+            </li>
+            <li>
+                <!-- <a href="/tasks">Tasks</a> -->
+                <a href="{% url 'tasks' %}">Tasks</a>
+            </li>
+
+            <li>
+                <!-- <a href="/create_task">Create_task</a> -->
+                <a href="{% url 'create_task' %}">Create_task</a>
+            </li>
+            <li>
+                <!-- <a href="/create_project">Create_project</a> -->
+                <a href="{% url 'create_project' %}">Create_project</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <nav class="navbar container">
+        Develop by ©Jymy
+    </nav>
+</body>
+
+</html>

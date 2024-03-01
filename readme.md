@@ -79,4 +79,11 @@ Plantillas o componentes que se pueden usar en diferentes partes
 Crear formularios desde python
     https://youtu.be/T1intZyhXDU?t=9099
 
-01/03: https://youtu.be/T1intZyhXDU?t=10541
+Asignar nombres a las URLs
+    https://youtu.be/T1intZyhXDU?t=10604
+
+Plantilla error 404 page not found
+    https://youtu.be/T1intZyhXDU?t=11929
+
+Aplicar estilos desde python
+    https://youtu.be/T1intZyhXDU?t=12417
