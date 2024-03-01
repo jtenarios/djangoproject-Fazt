@@ -79,4 +79,4 @@ Plantillas o componentes que se pueden usar en diferentes partes
 Crear formularios desde python
     https://youtu.be/T1intZyhXDU?t=9099
 
-28/02: https://youtu.be/T1intZyhXDU?t=9984
+01/03: https://youtu.be/T1intZyhXDU?t=10541
