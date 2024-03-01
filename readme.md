@@ -87,3 +87,9 @@ Plantilla error 404 page not found
 
 Aplicar estilos desde python
     https://youtu.be/T1intZyhXDU?t=12417
+
+Configurar subida a produccion
+    https://youtu.be/e6PkGDH4wWA?t=10335
+
+Conectar a BD PostgreSQl
+    https://youtu.be/e6PkGDH4wWA?t=10567
