@@ -88,8 +88,18 @@ Plantilla error 404 page not found
 Aplicar estilos desde python
     https://youtu.be/T1intZyhXDU?t=12417
 
-Configurar subida a produccion
-    https://youtu.be/e6PkGDH4wWA?t=10335
 
-Conectar a BD PostgreSQl
-    https://youtu.be/e6PkGDH4wWA?t=10567
+# Subir a Render
+# https://www.youtube.com/watch?v=wczWm8j4v9w&ab_channel=PrettyPrinted
+1. Crear base de datos
+2. Cambiar la configuracion de la BBDD en settins.py por la URL externa
+3. pip install dj-database-url
+4. pip install psycopg2-binary
+5. python manage.py migrate
+6. Configurar BD postgresSQl en Dbeaver
+7. Copiar DB URL interna
+8. Render: Create new web service
+9. Configurar en settion las variables de entorno DEBUG, ALLOWED_HOSTS, SECRET_KEY, DATABASE_URL
+10. Guardar cambios en git
+11. Crear .gitignore
+https://youtu.be/wczWm8j4v9w?t=669
