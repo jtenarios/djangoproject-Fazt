@@ -87,3 +87,6 @@ Plantilla error 404 page not found
 
 Aplicar estilos desde python
     https://youtu.be/T1intZyhXDU?t=12417
+
+Subir a wailway
+    https://www.youtube.com/watch?v=ZNnk81ifUTo&t=370s
